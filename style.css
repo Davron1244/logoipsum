@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    padding: 44px 0 0;
+    align-items: center;
+    width: 1202px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+}
+
+.link__list a{
+    text-decoration: none;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #110229;
+    letter-spacing: 0.2em;
+}
+
+.link__list__btn{
+    border: 2px solid #1DAEFF;
+    padding: 7px 40px;
+    border-radius: 14px;
+}
+
+.link__list__btn a{
+    text-decoration: none;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #1DAEFF;
+    letter-spacing: 0.2em;
+}
+
+/* Main */
+
+/* section-bir start*/
+
+.nav{
+    background-image: url(img/Banner\ Image.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 92px 0px 82px;
+    width: 1500px;
+}
+
+.hero-text{
+    font-family: Noto Sans;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 73.08px;
+    color: #110229;
+}
+
+.hero-content{
+    font-family: Noto Sans;
+    font-size: 22px;
+    font-weight: 400;
+    color: #585981;
+    margin-top: 39px;
+    line-height: 36px;
+}
+
+.all-text{
+    width: 500px;
+}
+
+.top-text{
+    display: flex;
+    margin-top: 62px;
+    gap: 30px;
+}
+
+.top-text-style a{
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.2em;    
+    text-decoration: none;
+    color: #8F90A6;
+}
+
+.top-text-style-active{
+    border-radius: 15px 15px 0 0;
+    padding: 3px 29px 0;
+    background-color: #FFFFFF;
+}
+
+.top-text-style-active a{
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    text-decoration: none;
+    letter-spacing: 0.2em; 
+    color: #110229;
+}
+
+.low-text{
+    display: flex;
+    padding-left: 29px;
+    align-items: center;
+    gap: 30px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 30px 60px -15px #8F90BC26;
+    background-color: #FFFFFFCC;
+    opacity: 95%;
+    width: 918px;
+    height: 102px;
+    border-radius: 0px 20px 20px 20px;
+}
+
+.loc-text{
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: px;
+    color:#110229;
+}
+
+.select-text{
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.ota-div{
+    margin-left: 89px;
+}
+
+.button-img{
+    padding: 18px 16px 16px 18px;
+    border-radius: 15px;
+    margin-left: 110px;
+    background-color: #1DAEFF;
+}
+
+.low-img{
+    margin-top: 23px;
+}
+
+/* section-bir end */
+
+/* section-ikki start */
+
+
+.text__we{
+    font-family: Noto Sans;
+    width: 478px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 49.59px;
+    margin-left: 355px;
+    text-align: center;
+    color: #110229;
+}
+
+.America{
+    background-image: url(img/Rectangle\ 9.png);
+    background-size: cover;
+    margin-top: 56px;
+    background-repeat: no-repeat;
+    width: 278px;
+    height: 426px;
+    transition: 1s;
+    border-radius: 30px;
+}
+
+.America__text{
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 48px;
+    line-height: 31.32px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #110229;
+}
+
+.Spain{
+    background-image: url(img/Rectangle\ 10.png);
+    background-size: cover;
+    margin-top: 56px;
+    background-repeat: no-repeat;
+    width: 278px;
+    height: 426px;
+    transition: 1s;
+    border-radius: 30px;
+}
+
+.London{
+    background-image: url(img/Rectangle\ 11.png);
+    background-size: cover;
+    margin-top: 56px;
+    background-repeat: no-repeat;
+    width: 278px;
+    height: 426px;
+    transition: 1s;
+    border-radius: 30px;
+}
+
+.France{
+    background-image: url(img/Rectangle\ 12.png);
+    background-size: cover;
+    margin-top: 56px;
+    background-repeat: no-repeat;
+    width: 278px;
+    height: 426px;
+    transition: 1s;
+    border-radius: 30px;
+}
+
+.America:hover{
+    box-shadow:  -6px 15px 23px 6px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+
+.Spain:hover{
+    box-shadow:  -6px 15px 23px 6px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+
+.London:hover{
+    box-shadow:  -6px 15px 23px 6px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+
+.France:hover{
+    box-shadow:  -6px 15px 23px 6px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+
+.country__img{
+    display: flex;
+    gap: 29px;
+}
+
+/* section-ikki end */
+
+/* Main end */
